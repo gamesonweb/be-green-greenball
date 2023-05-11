@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../../css/accueil.css">
+    <link rel="stylesheet" href="../../css/button.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Top menu -->
+        <div class="sidebar">
+            <div class="profile">
+                <a href="../../index.html"> <img src="../../lib/img/logo.png" alt="profile_picture"></a>
+                <h3>Rayyyy Games</h3>
+                <p></p>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="../view/2048.html">
+                            <span class="item">2084</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../view/sudoku.html">
+                            <span class="item">Sudoku</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../view/greenBall.html">
+                            <span class="item">Green Ball</span>
+                        </a>
+                    </li>
+                    <li>
+                        <button id="next">--></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <section class="carousel">
+        <div class="pic-ctn">
+           <div id="fleche"></div>
+            <iframe id="carrousel" src="../../html/score/leaderBoard.html" width="88.2%" height="100%">
+            </iframe>
+        </div>
+    </section>
+</body>
+<script src="../../js/controller/checkAchievement.js"></script>
+<script src="../../js/controller/carrousel.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>

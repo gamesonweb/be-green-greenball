@@ -1,0 +1,99 @@
+body {
+  background-color: #242424;
+  user-select: none;
+  font-family: Roboto, sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+table{
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 4px solid #fff; 
+}
+
+table:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+#green-ball{
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 20px #25C0FF;
+  border: 2px solid #25C0FF;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  height: 98.5vh;
+  background-color: #333333;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  padding: 16px;
+}
+
+th {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 16px;
+  color: #fff;
+}
+
+td {
+  font-size: 16px;
+  padding: 16px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  table {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  th {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  #green-ball {
+    transform: none;
+    position: static;
+    margin-top: 16px;
+  }
+
+  #sudoku {
+    margin-top: 8px;
+  }
+
+  #a2048 {
+    margin-top: 8px;
+  }
+
+  caption {
+    font-size: 18px;
+    padding: 8px;
+  }
+}
