@@ -1,24 +1,7 @@
-# greenball
+## be-green-greenball
+# be-green-greenball created by GitHub Classroom
 
-## Project setup
-```
-npm install
-```
+Arthur Dauphin Maxence Bourgeat Evan Gallice
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Explication du jeu
+Vous vous retrouvez sur un terrain de tennis avec pour mission de promouvoir le recyclage. Une balle, représentant un déchet, vous est envoyée et vous devez la renvoyer vers trois cibles mouvantes qui symbolisent différents types de poubelles. Si vous touchez la bonne cible, vous gagnez des points, sinon vous en perdez. Le jeu offre des niveaux de difficulté croissants.
