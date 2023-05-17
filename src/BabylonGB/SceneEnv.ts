@@ -1,12 +1,12 @@
 import {
-    Scene,
-    Engine,
-    CubeTexture,
-    SceneLoader,
+    AbstractMesh,
     CannonJSPlugin,
+    CubeTexture,
+    Engine,
     MeshBuilder,
     PhysicsImpostor,
-    AbstractMesh
+    Scene,
+    SceneLoader
 } from "@babylonjs/core"
 import {FreeCamera} from "@babylonjs/core/Cameras";
 import {HemisphericLight} from "@babylonjs/core/Lights";
@@ -112,6 +112,6 @@ export class SceneEnv {
     async createCharacter(): Promise<void> {
         const { meshes } = await SceneLoader.ImportMeshAsync("", "./models/character/", "Idle.glb", this.scene);
         this.character = meshes[0];
-        this.character.position = new Vector3(0, 5, 0);
+        this.character.position = new Vector3(0, 4, 0);
     }
 }
