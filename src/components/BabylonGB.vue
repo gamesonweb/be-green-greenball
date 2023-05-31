@@ -18,15 +18,20 @@ export default defineComponent({
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-* {
-  overflow: hidden;
-}
+<style>
 
+html,head,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border: none;
+}
 canvas {
   width: 100%;
   height: 100%;
-  padding: 0;
-  overflow: hidden;
+  border: none;
+
 }
 </style>
