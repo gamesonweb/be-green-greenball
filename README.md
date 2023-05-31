@@ -1,4 +1,4 @@
-WIP : Le jeu n'est pas fini>
+WIP : Le jeu n'est pas fini
 
 # be-green-greenball
 ## be-green-greenball created by GitHub Classroom
